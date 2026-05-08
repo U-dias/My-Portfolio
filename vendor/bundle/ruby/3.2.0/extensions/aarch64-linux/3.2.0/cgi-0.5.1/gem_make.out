@@ -1,0 +1,9 @@
+current directory: /rails/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.1/ext/cgi/escape
+/usr/local/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /rails/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260503-88-4lcl3 sitelibdir\=./.gem.20260503-88-4lcl3 clean
+current directory: /rails/vendor/bundle/ruby/3.2.0/gems/cgi-0.5.1/ext/cgi/escape
+make DESTDIR\= sitearchdir\=./.gem.20260503-88-4lcl3 sitelibdir\=./.gem.20260503-88-4lcl3
+make failedNo such file or directory - make
