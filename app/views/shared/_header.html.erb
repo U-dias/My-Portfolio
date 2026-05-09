@@ -1,0 +1,15 @@
+<header>
+  <%= link_to "トップ", root_path %>
+
+  <% if current_user %>
+    <span>ログイン中: <%= current_user.name %></span>
+    <%= link_to "ログアウト", logout_path, data: { turbo_method: :delete } %>
+  <% else %>
+    <% unless current_page?(login_path) %>
+      <%= link_to "ログイン", login_path %>
+    <% end %>
+    <% unless current_page?(signup_path) %>
+      <%= link_to "新規登録", signup_path %>
+    <% end %>
+  <% end %>
+</header>
