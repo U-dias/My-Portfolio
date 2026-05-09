@@ -1,3 +1,4 @@
+<%= render "shared/header" %>
 <h1>ユーザー情報</h1>
 
 <p>ユーザー名：<%= @current_user.name %></p>
@@ -5,3 +6,4 @@
 
 <p>閲覧履歴</p>
 <%= @current_user.views.map(&:product).uniq %>
+<%= link_to '戻る', request.referer || root_path  %>
